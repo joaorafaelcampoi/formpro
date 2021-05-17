@@ -1,0 +1,276 @@
+* {
+	margin: 0;
+	padding: 0;
+	background-color: #00a2e8;
+}
+
+html, body {
+	height: 134%;
+}
+
+.interface {
+	width: 100%;
+	height: 50px;
+	background-color: white;
+	position: relative;
+}
+
+.interface h1 {
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	padding-top: 2.5%;
+	padding-bottom: 2.5%;
+	background-color: white;
+	font-size: 32px;
+	font-family: monospace, Verdana;
+	color: #00a2e8;
+	text-shadow: 2px 2px 32px white;
+}
+
+.fm {
+	margin: 0 auto;
+	margin-top: 4%;
+	width: 85%;
+	min-height: 85%;
+}
+
+.field1,.field2{
+	margin-bottom: 5%;
+	padding-bottom: 3%;
+	border: 5px ridge white;
+}
+
+.field1 {
+	margin-top: 6%;
+}
+
+.fm legend {
+	font-size: 32px;
+	color: rgb(260, 260, 260);
+	text-shadow: 1px 1px 22px gray;
+	font-family: ABeeZee;
+	text-align: center;
+	margin: 0 1%;
+	cursor: pointer;
+}
+
+.fm legend:hover {
+	text-shadow: 2px 2px 32px white;
+}
+
+.sub {
+	margin-top: 2%;
+	margin-left: 2%;
+	color: #ffea00;
+	text-shadow: 1px 1px 1px rgb(60,60,60);
+	font-family: ABeeZee;
+	font-size: 28px;
+}
+
+.field1 {
+	position: static;
+	margin-top: 90px;
+
+}
+
+.name {
+	margin: 2%;
+	margin-left: 5%;
+	color: white;
+	text-shadow: 1px 1px 3px gray;
+	font-family: ABeeZee;
+	font-size: 20px;
+	text-align: center;
+}
+
+.field2 select option [disabled] {
+	color: rgb(70, 70, 70);
+}
+
+.field2 select option{
+	background-color: white;
+}
+
+.name span {
+	font-size: 20px;
+	font-family: ABeeZee;
+}
+
+.field2 h2:nth-of-type(3) {
+	margin-top: 25px;
+}
+
+.field2 {
+	width: 50%;
+	min-width: 362.5px;
+	display: inline-block;
+}
+
+.field2 input[type=text] {
+	margin-left: 5%;
+	margin-right: 5%;
+	padding-left: 10px;
+	margin-bottom: 20px;
+	width: 87%;
+	min-width: 310px;
+	height: 35px;
+	background-color: white;
+	color: rgb(70, 70, 70);
+	font-family: ABeeZee;
+	border: 2px solid white;
+	border-radius: 10px;
+}
+
+.list1, .list2, .list3 {
+	display: inline-block;
+	padding-left: 10px;
+	width: 20%;
+	height: 35px;
+	background-color: white;
+	color: rgb(70, 70, 70);
+	font-family: ABeeZee;
+	border: 2px solid white;
+	border-radius: 10px;
+}
+
+.list1 {
+	margin-left: 5%;
+}
+
+.list1,.list2 {
+	margin-right: 1px;
+}
+
+.list2,.list3 {
+	margin-left: 3px;
+	width: 32%;
+}
+
+.list2 {
+	width: 30%;
+}
+
+.list3 {
+	margin-right: 1%;
+}
+
+.field2 > span {
+	color: white;
+	font-family: arial;
+	font-size: 22px;
+}
+
+.field2 input[type=number] {
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 20px;
+	padding-left: 10px;
+	width: 87%;
+	min-width: 310px;
+	height: 35px;
+	background-color: white;
+	color: rgb(70, 70, 70);
+	font-family: ABeeZee;
+	border: 2px solid white;
+	border-radius: 10px;
+}
+
+.field2 input:focus, .field2 input[type=radio]:focus {
+	outline: 0;
+	background-color: rgb(230, 230, 230);
+}
+
+.option {
+	text-align: left;
+	padding-left: 5%;
+}
+
+.cego1 input {
+	cursor: pointer;
+}
+
+.option span {
+	color: white;
+	font-family: ABeeZee;
+	font-size: 20px;
+	margin-left: 0.5%;
+}
+
+.last {
+	margin-top: 35px;
+	font-size: 18px;
+} 
+
+.area {
+	resize: none;
+	margin-left: 5%;
+	margin-right: 5%;
+	width: 87%;
+	padding-left: 10px;
+	min-width: 310px;
+	background-color: white;
+	color: rgb(70, 70, 70);
+	font-family: ABeeZee;
+	border: 2px solid white;
+	border-radius: 10px;
+	padding-top: 4px;
+	height: 100px;
+}
+
+.area:focus {
+	outline: 0;
+	background-color: rgb(230, 230, 230);
+}
+
+.field3 {
+	display: inline-block;
+	width: 30%;
+	height: 30%;
+	vertical-align: top;
+	margin-left: 12.5%;
+	opacity: 0.8;
+	border-radius: 50%;
+}
+
+.field3 img {
+	width: 100%;
+	height: 100%;
+}
+
+.field3 img:hover {
+	opacity: 1;
+	/* Fazer o elemento expandir */
+	-webkit-transform: scale(1.15);
+    -ms-transform: scale(1.15);
+    transform: scale(1.15);
+    /* Fazer o elemento rotacionar */
+    -webkit-transform: rotateZ(15deg);
+    -ms-transform: rotateZ(15deg);
+    transform: rotateZ(15deg);
+}
+
+.text {
+	display: inline-block;
+	margin-left: -15%;
+	margin-top: 5%;
+	width: 140%;
+	min-width: 330px;
+	height: 470px;
+	background-color: green;
+	margin-bottom: 15%;
+}
+
+.text p {
+	width: 100%;
+	height: 100%;
+	font-family: ABeeZee;
+	font-size: 24px;
+	color: white;
+}
+
+.box p {
+	text-align: center;
+	font-family: AbeeZee;
+	color: white;
+}
